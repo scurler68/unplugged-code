@@ -141,7 +141,7 @@ header nav ul li a {
 
 }
 
-/*-----------Mobile Styles--------------------*/
+/*-----------Mobile Homepage Styles--------------------*/
 .hero-area {
 
 }
@@ -150,10 +150,6 @@ hero .content-wrapper {
   display: flex;
   align-items: left;
   flex-flow: row wrap;
-}
-
-h1 {
-
 }
 
 aside {
@@ -213,7 +209,36 @@ reviews .content-wrapper {
 
 article {
 
+}/*-------------Mobile FAQ Page Styles----------*/
+.faq-section .content-wrapper {
+  display: flex;
+  justify-content: left;
+  flex-flow: row wrap;
+
 }
+
+/*-------------Mobile About Page Styles---------*/
+.mission .content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.mission-content {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.map {
+
+}
+
+.contact-section .content-wrapper{
+  display: flex;
+  justify-content: left;
+  flex-flow: row wrap;
+}
+
 
 
 /*-----------Footer Styles--------------------*/
