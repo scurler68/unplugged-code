@@ -86,6 +86,170 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*-------------Global Styles-----------*/
+h1 {
+
+}
+
+h2 {
+
+
+}
+
+h3 {
+
+}
+
+p {
+
+}
+
+/*-------------Base Header, Footer Styles-----------*/
+header, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/*-----------Header Styles--------------------*/
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav {
+
+
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+
+}
+
+header nav ul li {
+  display: inline;
+	text-transform: uppercase;
+}
+
+header nav ul li a {
+
+}
+
+/*-----------Mobile Styles--------------------*/
+.hero-area {
+
+}
+
+hero .content-wrapper {
+  display: flex;
+  align-items: left;
+  flex-flow: row wrap;
+}
+
+h1 {
+
+}
+
+aside {
+
+}
+
+aside .content-wrapper {
+  display: flex;
+  align-items: left;
+  flex-flow: row wrap;
+
+}
+
+aside .form-description {
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.features h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+features .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+
+.feature-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+reviews .content-wrapper {
+
+}
+
+article {
+
+}
+
+
+/*-----------Footer Styles--------------------*/
+footer .content-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer-content {
+
+
+}
+
+
+.contact {
+
+
+
+}
+
+.social {
+
+}
+
+.social-icons {
+
+
+}
+
+.copyright {
+
+}
+
+
 
 /* ==========================================================================
    Helper classes
