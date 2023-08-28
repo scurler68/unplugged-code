@@ -540,7 +540,72 @@ footer .copyright {
 
 
 @media only screen and (min-width: 1200px) {
-  /* Desktop styles here */ 
+  /***** Desktop styles here *****/ 
+
+  /*General Styles*/
+.content-wrapper {
+  max-width: 960px;
+}
+
+/* Header */
+header {
+  padding: 15px 0;
+}
+
+.header-divider {
+  display: none;
+  order: 1;
+}
+
+header nav {
+  width: 20%;
+}
+
+/* Hero Area */
+.hero-area h1 {
+  width: 40%;
+}
+
+/* Aside */
+aside .content-wrapper {
+  justify-content: space-around;
+}
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 30%;
+}
+
+/* Features */
+
+.features h2 {
+  width: 60%;
+}
+.features article {
+  flex-basis: 33%;
+}
+
+/* Reviews */
+
+.reviews h2 {
+  margin-bottom: 50px;
+}
+
+.reviews article div {
+  width: 42%;
+}
+
+/*******About Page*******/
+.mission h2 {
+  width: 50%;
+}
+
+.contact-section .content-wrapper h2 {
+  width: 45%;
+}
+/******FAQ Page********/
+.faq h2 {
+  width: 100%;
+}
 }
 
 @media print,
