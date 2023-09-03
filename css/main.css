@@ -236,6 +236,12 @@ footer .social-icons p {
   align-items: center;
 }
 
+.social i {
+  font-size: 2em;
+  background-color: #527158;
+  border-radius: 20px;
+}
+
 footer .copyright {
   margin: 20px 0;
 }
@@ -392,6 +398,10 @@ input[type=button] {
 
 .mission .content-wrapper {
   margin-bottom: 0;
+}
+
+.mission-content {
+  padding-bottom: 40px;
 }
 
 .mission h2 {
@@ -650,6 +660,10 @@ footer h4 {
 
 footer p {
   line-height: 1.285;
+}
+
+footer .social {
+  width: 33%;
 }
 
 footer .copyright {
